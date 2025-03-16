@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cli_Ip</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="contDiv">    
+            <h1 class="title">Click this button for get Api in ClimateNet</h1> 
+            <div class="datadiv">
+                    <p class="datacont">{{newdata["keys"]}}</p>
+                    <p class="datacont">{{newdata["data"]}}</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: darkgray;
+    }
+    .mainDiv{
+        width: 100%;
+        height: auto;
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .datadiv{
+        width: 100%;
+        height: 50px;
+    }
+    .datacont{
+        color: white;
+    }
+    .title{
+        color: white;
+    }
+</style>
+</html>
