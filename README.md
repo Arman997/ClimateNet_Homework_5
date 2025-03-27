@@ -21,7 +21,7 @@ I deployed this project on a server and configured it to run **two different web
 1. Clone the repository.
 
 ```sh
-https://github.com/Arman997/ClimateNet_Homework_5
+git@github.com:Arman997/ClimateNet_Homework_5.git
 ```
 
 2. After cloning go to the folder and type this command to create your **venv**.
